@@ -1,0 +1,18 @@
+# meson_options.txt — user-configurable options
+#
+# Modify at setup time:
+#   meson setup build -Dendpoint=192.168.1.10:9000 -Dsecure=false
+
+option(
+  'endpoint',
+  type:        'string',
+  value:       'localhost:9000',
+  description: 'MinIO / AIStor API endpoint (host:port)',
+)
+
+option(
+  'secure',
+  type:        'boolean',
+  value:       false,
+  description: 'Use HTTPS (true) or HTTP (false)',
+)

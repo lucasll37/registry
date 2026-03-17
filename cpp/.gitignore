@@ -1,0 +1,19 @@
+# Conan cache & generated files
+.conan/
+build/
+conan_meson_native.ini
+
+# Meson
+.ninja_deps
+.ninja_log
+compile_commands.json
+meson-logs/
+meson-info/
+meson-private/
+
+# Binaries
+minio_poc
+*.o
+*.a
+*.so
+*.dylib
