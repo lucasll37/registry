@@ -1,0 +1,7 @@
+# Credenciais reais — NUNCA versionar
+.env
+
+# Dados do MinIO
+minio-data/
+
+.venv
